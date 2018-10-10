@@ -14,7 +14,7 @@ namespace Ant_War_replica
 
         public int[] ratio = new int[4]; // 0: gatherer, 1: breeder, 2: builder, 3: solder
         
-        private int index_location;
+        private Location location = null;
 
             
 
@@ -31,16 +31,38 @@ namespace Ant_War_replica
             this.ratio[1] = ratio_breeder;
             this.ratio[2] = ratio_builder;
             this.ratio[3] = ratio_solder;
+
+            ChangeToNewLocation(index_location);
             
-            this.index_location = index_location;
-            
+        }
+
+        public void ChangeToNewLocation(int index_location)
+        {
+            switch (index_location)
+            {
+                case 1:
+                    this.location = new HouseGarden();
+                    break;
+                case 2:
+                    this.location = new HouseKitchen();
+                    break;
+                default:
+                    this.location = new HouseYard();
+                    break;
+            }
         }
 
         public void next_state()
         {
-            this.num_food += this.ratio[0] / 100 * this.num_ant * 30 / 100 - this.num_ant / 6;
-            this.num_ant += this.ratio[1] / 100 * this.num_ant * 2 / 100;// - this.num_ant / 10;
-            this.num_nest += this.ratio[2] / 100 * this.num_ant * 4 / 100;
+            Int64 food_change = this.num_ant * this.ratio[0] * 30 / 10000 - this.num_ant / 6;
+            Int64 ant_change = this.num_ant * this.ratio[1] * 2 / 10000;// - this.num_ant / 10;
+            Int64 nest_change = this.num_ant * this.ratio[2] * 4 / 10000;
+
+
+
+            this.num_food += food_change;
+            this.num_ant += ant_change;
+            this.num_nest += nest_change;
         }
         
     }

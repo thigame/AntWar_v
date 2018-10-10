@@ -18,12 +18,10 @@ namespace Ant_War_replica
         private List<Label> static_label_list = new List<Label>();
         private EventHandler[,] change_ratio_event = new EventHandler[4,4];
         private Label[] num_labels = new Label[4];
+
         public RatioMenu(ref GameState instate)
         {
             this.state = instate;
-
-            
-            
 
             InitializeComponent();
             CreateRatioTable(10, 10);
@@ -50,8 +48,8 @@ namespace Ant_War_replica
             int horizon_space = 30;
             int vertical_space = 75;
             String[] names = { "gatherer", "breeder", "builder", "solder" };
-            String[] labels = { "-10", "-1", "+1", "+10" };
-            int[] change_rate = { -10, -1, 1, 10 };
+            String[] labels = { "-10", "-5", "+5", "+10" };
+            int[] change_rate = { -10, -5, 5, 10 };
             for (int i = 0; i<4; ++i)
             {
                 String name = names[i];
@@ -168,6 +166,12 @@ namespace Ant_War_replica
                 }
                 ratio_labels[4].BackColor = temp;
             }
+        }
+
+        private void LocationButton_Click(object sender, EventArgs e)
+        {
+            LocationSelection location_form = new LocationSelection(ref this.state);
+            location_form.Show();
         }
     }
 }

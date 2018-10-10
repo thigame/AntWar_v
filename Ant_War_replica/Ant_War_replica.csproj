@@ -46,7 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LocationSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationSelection.Designer.cs">
+      <DependentUpon>LocationSelection.cs</DependentUpon>
+    </Compile>
     <Compile Include="GameState.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="StartMenu.cs">
       <SubType>Form</SubType>
     </Compile>
