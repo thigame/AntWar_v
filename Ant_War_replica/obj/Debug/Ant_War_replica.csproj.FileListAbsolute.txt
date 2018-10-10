@@ -1,0 +1,11 @@
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\bin\Debug\Ant_War_replica.exe.config
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\bin\Debug\Ant_War_replica.exe
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\bin\Debug\Ant_War_replica.pdb
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.csprojAssemblyReference.cache
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.Properties.Resources.resources
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.StartMenu.resources
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.csproj.GenerateResource.cache
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.csproj.CoreCompileInputs.cache
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.exe
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.pdb
+C:\Users\Thinh\source\repos\Ant_War_replica\Ant_War_replica\obj\Debug\Ant_War_replica.RatioMenu.resources

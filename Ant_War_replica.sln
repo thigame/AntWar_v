@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ant_War_replica", "Ant_War_replica\Ant_War_replica.csproj", "{B8218C6D-98D7-49BA-9C3B-916BA111C6B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8218C6D-98D7-49BA-9C3B-916BA111C6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8218C6D-98D7-49BA-9C3B-916BA111C6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8218C6D-98D7-49BA-9C3B-916BA111C6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8218C6D-98D7-49BA-9C3B-916BA111C6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FABC73B-91E4-48D4-91FB-44F7A6E07468}
+	EndGlobalSection
+EndGlobal
